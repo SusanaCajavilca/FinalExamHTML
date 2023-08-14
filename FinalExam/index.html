@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Exam</title>
+    <meta name="description" content="This page is the Home Page for the Final Exam.">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- Here I put the Google Fonts:  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- jQuery link This must be placed before the link to our custom js ... https://releases.jquery.com/ -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- add our custom js file -->
+    <script type="text/javascript" src="./js/custom-js.js"></script>
+    <!-- Here I add the CSS file, there is only one css file -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="Body">
+<header id="header"></header>
+    <section class="section1">
+        <div>
+    <h1>HTML, CSS, JS Fund. Final Exam</h1>
+        </div>
+    </section>
+    <section class="section2">
+        <div>
+        <h2>I Am A Tittle</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto at culpa minus molestias numquam obcaecati odio omnis possimus quas qui quibusdam, repellat, saepe voluptatibus.</p>
+        </div>
+        <div>
+            <img src="./img/img2.jpg" alt="Imagen2">
+        </div>
+    </section>
+    <section class="section3">
+        <div>
+            <img src="./img/img5.jpg" alt="Imagen5">
+        </div>
+        <div>
+            <img src="./img/img4.jpg" alt="Imagen4">
+        </div>
+        <div>
+            <img src="./img/img3.jpg" alt="Imagen3">
+        </div>
+    </section>
+    <section class="section4">
+        <form class="form" method="POST" action="somefile.php" enctype="multipart/form-data">
+            <p>
+                <input type="text" name="Name" placeholder="Name" required>
+            </p>
+            <p>
+                <input type="email" name="Email" placeholder="Email" required>
+            </p>
+            <p>
+                <input type="password" name="Pword" required>
+            </p>
+
+            <p>Pick one</p>
+            <p>
+            <input type="radio" id="truee" name="state" value="True">
+            <label for="truee">True</label>
+            </p>
+            <p>
+            <input type="radio" id="falsee" name="state" value="False">
+            <label for="falsee">False</label>
+            </p>
+            <p>
+            <textarea name="message" rows="3" cols="50" placeholder="Leave a message"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </section>
+<footer id="footer"></footer>
+</body>
+</html>
